@@ -146,3 +146,8 @@ If this code is helpful for your study, please cite:
   year={2026}
 }
 ```
+## Pre-trained Weights
+Due to GitHub's Git LFS storage limitations (1GB quota/month), the pre-trained model weights (1.4GB .pth file) cannot be uploaded directly to this repository. You can obtain the weights via:
+1. **Cloud Drive Download**: https://pan.baidu.com/s/1ITrhEFpemydtrSC_gxBbeQ Extraction Code: 4nnk
+2. **Contact Author**: Email (yyyh0213@163.com) for the weights file.
+3. **Re-training**: Use the provided training scripts (scripts/train_stage1.py + scripts/train_stage2.py) to re-train the model on the CARE dataset.
